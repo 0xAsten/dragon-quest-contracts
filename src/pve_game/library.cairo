@@ -14,7 +14,7 @@ from starkware.starknet.common.syscalls import get_caller_address
 
 from openzeppelin.token.erc721.IERC721 import IERC721
 
-from contracts.settling_game.interfaces.ixoroshiro import IXoroshiro
+from src.settling_game.interfaces.ixoroshiro import IXoroshiro
 
 
 @storage_var

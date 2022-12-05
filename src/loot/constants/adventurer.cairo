@@ -5,8 +5,8 @@
 %lang starknet
 
 // import item consts
-from contracts.loot.constants.item import Item
-from contracts.loot.constants.bag import Bag
+from src.loot.constants.item import Item
+from src.loot.constants.bag import Bag
 
 // @notice This is viewable information of the Adventurer. We DO NOT store this on-chain.
 //         This is the object that is returned when requesting the Adventurer by ID.

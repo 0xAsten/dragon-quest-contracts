@@ -13,9 +13,9 @@ from starkware.cairo.common.uint256 import Uint256
 
 from openzeppelin.upgrades.library import Proxy
 
-from contracts.pve_game.library import DragonQuest, Xoroshiro_address, Adventurer_address, Action, PALYER, OPPOSITE, Adventure_count
-from contracts.loot.adventurer.IAdventurer import IAdventurer
-from contracts.loot.constants.adventurer import AdventurerState
+from src.pve_game.library import DragonQuest, Xoroshiro_address, Adventurer_address, Action, PALYER, OPPOSITE, Adventure_count
+from src.loot.adventurer.IAdventurer import IAdventurer
+from src.loot.constants.adventurer import AdventurerState
 
 namespace Dragon {
     const Health = 200;

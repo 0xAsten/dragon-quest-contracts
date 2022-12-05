@@ -1,7 +1,11 @@
 [project]
 protostar-version = "0.7.0"
-lib-path = "lib"
+
+[build]
+cairo-path = ["lib/cairo_contracts/src"]
 
 [contracts]
-main = ["src/main.cairo"]
+dragon_quest = ["src/pve_game/DragonQuest.cairo"]
 
+[test]
+target = ["src"]
